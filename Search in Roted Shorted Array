@@ -9,7 +9,7 @@ class Solution {
             }  
             //left half is sorted
             if(arr[left]<=arr[mid]){
-                if(arr[left]<=target && target<arr[mid]){ 
+                if(arr[left]<=target && target<arr[mid]){  
                     right=mid-1;
                 }else{
                     left=mid+1;
