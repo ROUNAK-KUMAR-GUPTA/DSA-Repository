@@ -21,7 +21,7 @@ class Solution {
     }
     public TreeNode getBST(int[] nums, int startIdx, int endIdx){
         if(startIdx> endIdx) return null;
-
+ 
         int middleIdx=(startIdx + endIdx)/2;
         TreeNode bst = new TreeNode(nums[middleIdx]); 
         bst.left=getBST(nums,startIdx,middleIdx-1);
