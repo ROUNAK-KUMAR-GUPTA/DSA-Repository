@@ -23,7 +23,7 @@ class Solution {
         if(startIdx> endIdx) return null;
 
         int middleIdx=(startIdx + endIdx)/2;
-        TreeNode bst = new TreeNode(nums[middleIdx]);
+        TreeNode bst = new TreeNode(nums[middleIdx]); 
         bst.left=getBST(nums,startIdx,middleIdx-1);
         bst.right=getBST(nums, middleIdx+1,endIdx);
 
