@@ -26,7 +26,7 @@ class Solution {
         TreeNode bst = new TreeNode(nums[middleIdx]);  
         bst.left=getBST(nums,startIdx,middleIdx-1);
         bst.right=getBST(nums, middleIdx+1,endIdx);
-
+ 
         return bst;
     }
 }
