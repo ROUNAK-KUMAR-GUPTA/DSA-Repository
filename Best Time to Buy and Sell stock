@@ -7,7 +7,7 @@ class Solution {
             maxprof = Math.max(maxprof,prices[i]-min_price); 
             min_price = Math.min(prices[i],min_price);
         }  
-
+ 
         return maxprof;  
     } 
 }
