@@ -13,7 +13,7 @@ class Solution {
             if(lh<rh){ 
                 l++; 
             }else{
-                r--;
+                r--; 
             }
         }  
         return max;  
