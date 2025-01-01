@@ -11,7 +11,7 @@ class Solution {
             int curr_area=min_h*len; 
             max=Math.max(max,curr_area);
             if(lh<rh){  
-                l++; 
+                l++;  
             }else{
                 r--; 
             }
