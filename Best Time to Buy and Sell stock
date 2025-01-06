@@ -1,5 +1,5 @@
 class Solution {
-    public int maxProfit(int[] prices) {
+    public int maxProfit(int[] prices) { 
         int min_price = prices[0]; 
         int maxprof = 0;
 
