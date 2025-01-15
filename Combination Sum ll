@@ -15,7 +15,7 @@ class Solution {
         } else {
             for (int i = start; i < candidates.length; i++) {
                 if (i > start && candidates[i] == candidates[i - 1]) continue; // skip duplicates
-                tempList.add(candidates[i]);
+                tempList.add(candidates[i]); 
                 backtrack(result, tempList, candidates, remain - candidates[i], i + 1);
                 tempList.remove(tempList.size() - 1); // backtrack
             }
