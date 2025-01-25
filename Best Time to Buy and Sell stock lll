@@ -9,7 +9,7 @@ class Solution {
             fb=Math.max(fb,-prices[i]);   
             fs=Math.max(fs,fb+prices[i]);  
             sb=Math.max(sb,fs-prices[i]);     
-            ss=Math.max(ss,sb+prices[i]); 
+            ss=Math.max(ss,sb+prices[i]);  
         }
         return ss;
     }
