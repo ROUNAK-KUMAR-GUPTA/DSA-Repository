@@ -14,7 +14,7 @@ class Solution {
     }
     public int maxEnvelopes(int[][] envelopes) {
         Arrays.sort(envelopes,(a,b)->a[0]==b[0]?b[1]-a[1]:a[0]-b[0]); 
-        int[] LIS=new int[envelopes.length+1];
+        int[] LIS=new int[envelopes.length+1]; 
         Arrays.fill(LIS,Integer.MAX_VALUE);
         LIS[0]=Integer.MIN_VALUE; 
         int ans=0;
