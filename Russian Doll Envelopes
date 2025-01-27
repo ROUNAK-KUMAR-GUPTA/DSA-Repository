@@ -6,7 +6,7 @@ class Solution {
             if(dp[mid]<val){
                 res=mid; 
                 lo=mid+1;
-            }else{ 
+            }else{  
                 hi=mid-1;
             }
         }
