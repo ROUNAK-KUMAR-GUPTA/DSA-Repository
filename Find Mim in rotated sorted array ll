@@ -6,7 +6,7 @@ class Solution {
             int mid = (low + high) / 2;  
 
             // If left part is sorted: 
-            if (arr[low] < arr[mid]) { 
+            if (arr[low] < arr[mid]) {  
                 // Keep the minimum:
                 ans = Math.min(ans, arr[low]);     
                 // Eliminate left half:
