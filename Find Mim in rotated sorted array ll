@@ -16,7 +16,7 @@ class Solution {
                 ans = Math.min(ans, arr[mid]);
                 // Eliminate right half:
                 high = mid - 1;
-            } else { // When arr[low] == arr[mid], we cannot determine which part is sorted
+            } else { // When arr[low] == arr[mid], we cannot determine which part is sorted 
                 ans = Math.min(ans, arr[low]);
                 low++;
             }
