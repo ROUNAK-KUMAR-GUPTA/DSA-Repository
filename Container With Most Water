@@ -7,7 +7,7 @@ class Solution {
             int lh=height[l]; 
             int rh=height[r];
             int min_h=Math.min(lh,rh);  
-            int len=r-l;   
+            int len=r-l;    
             int curr_area=min_h*len; 
             max=Math.max(max,curr_area);  
             if(lh<rh){  
