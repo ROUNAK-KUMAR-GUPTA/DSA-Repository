@@ -12,7 +12,7 @@ class Solution {
             max=Math.max(max,curr_area);  
             if(lh<rh){  
                 l++;  
-            }else{
+            }else{ 
                 r--; 
             }
         }     
