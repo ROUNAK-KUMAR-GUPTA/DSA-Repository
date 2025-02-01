@@ -26,6 +26,6 @@ class Solution {
                 LIS[insertIndex]=val;
             }
         }
-        return ans;
+        return ans; 
     }
 }
