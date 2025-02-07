@@ -6,7 +6,7 @@ class Solution {
         leftMax[0]=height[0];
         for(int i=1;i<n;i++){
             leftMax[i]=Math.max(height[i],leftMax[i-1]);
-        }
+        } 
         //calculate rightmax boundary-array
         int rightMax[]=new int[n]; 
         rightMax[n-1]=height[n-1];
