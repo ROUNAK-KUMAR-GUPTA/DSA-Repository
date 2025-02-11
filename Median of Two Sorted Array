@@ -13,7 +13,7 @@ class Solution {
         }
 
         Arrays.sort(merged);
-        
+         
         int total = merged.length;
 
         if(total%2==1){
