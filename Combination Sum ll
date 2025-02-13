@@ -9,7 +9,7 @@ class Solution {
     }
   
     private void backtrack(List<List<Integer>> result, List<Integer> tempList, int[] candidates, int remain, int start) {   
-        if (remain < 0) return; // if the sum exceeds the target
+        if (remain < 0) return; // if the sum exceeds the target 
         if (remain == 0) { 
             result.add(new ArrayList<>(tempList)); // add the combination to the result
         } else {
