@@ -16,7 +16,7 @@ class Solution {
             for(int i=startRow+1;i<=endRow;i++){
                arr[i][endColm]=count;
                count++;
-            }
+            } 
             //Bottom
             for(int j=endColm-1;j>=startColm;j--){
                if(startRow==endRow){
