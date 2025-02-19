@@ -5,7 +5,7 @@ class Solution {
         int startColm=0;
         int endRow=arr.length-1;
         int endColm=arr[0].length-1;
-        int count=1;
+        int count=1; 
         while(startRow<=endRow && startColm<=endColm){
             //Top
             for(int j=startColm;j<=endColm;j++){
