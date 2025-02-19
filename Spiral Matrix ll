@@ -40,6 +40,6 @@ class Solution {
             endColm--;
         }
         return arr;
-        
+         
     }
 }
