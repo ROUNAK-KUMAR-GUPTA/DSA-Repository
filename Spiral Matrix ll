@@ -9,7 +9,7 @@ class Solution {
         while(startRow<=endRow && startColm<=endColm){
             //Top
             for(int j=startColm;j<=endColm;j++){
-               arr[startRow][j]=count;
+               arr[startRow][j]=count; 
                count++;
             }
             //Right
