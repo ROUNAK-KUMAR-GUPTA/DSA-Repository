@@ -10,7 +10,7 @@ class Solution {
             //Top
             for(int j=startColm;j<=endColm;j++){
                arr[startRow][j]=count; 
-               count++;
+               count++; 
             }
             //Right
             for(int i=startRow+1;i<=endRow;i++){
