@@ -16,7 +16,7 @@
 class Solution {  
     public TreeNode sortedArrayToBST(int[] nums) { 
         if (nums.length==0) return null;    
- 
+  
         return getBST(nums,0,nums.length-1); 
     } 
     public TreeNode getBST(int[] nums, int startIdx, int endIdx){   
