@@ -5,7 +5,7 @@ class Solution {
         int max=0; 
         while(l<r){  
             int lh=height[l]; 
-            int rh=height[r]; 
+            int rh=height[r];  
             int min_h=Math.min(lh,rh);     
             int len=r-l;      
             int curr_area=min_h*len;  
