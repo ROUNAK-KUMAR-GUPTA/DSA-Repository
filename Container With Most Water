@@ -10,7 +10,7 @@ class Solution {
             int len=r-l;      
             int curr_area=min_h*len;  
             max=Math.max(max,curr_area);  
-            if(lh<rh){    
+            if(lh<rh){     
                 l++;  
             }else{  
                 r--; 
