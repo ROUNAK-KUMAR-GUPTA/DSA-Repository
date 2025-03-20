@@ -4,7 +4,7 @@ class Solution {
         int startColm=0;
         int endRow=matrix.length-1; 
         int endColm=matrix[0].length-1;   
-        ArrayList<Integer> li=new ArrayList<>(); 
+        ArrayList<Integer> li=new ArrayList<>();  
         while(startRow<=endRow && startColm<=endColm){ 
             //Top
             for(int j=startColm;j<=endColm;j++){
