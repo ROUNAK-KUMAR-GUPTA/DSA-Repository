@@ -6,7 +6,7 @@ class Solution {
         int endColm=matrix[0].length-1;    
         ArrayList<Integer> li=new ArrayList<>();  
         while(startRow<=endRow && startColm<=endColm){  
-            //Top
+            //Top 
             for(int j=startColm;j<=endColm;j++){
                li.add(matrix[startRow][j]);
             }
