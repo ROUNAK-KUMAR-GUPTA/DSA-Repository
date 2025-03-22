@@ -6,7 +6,7 @@ class Solution {
             int mid=left + ((right-left)/2); 
             if(arr[mid]==target){ 
                 return mid;
-            }  
+            }   
             //left half is sorted
             if(arr[left]<=arr[mid]){ 
                 if(arr[left]<=target && target<arr[mid]){  
