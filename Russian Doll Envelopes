@@ -11,7 +11,7 @@ class Solution {
             }
         }
         return res+1;
-    }
+    } 
     public int maxEnvelopes(int[][] envelopes) {
         Arrays.sort(envelopes,(a,b)->a[0]==b[0]?b[1]-a[1]:a[0]-b[0]); 
         int[] LIS=new int[envelopes.length+1]; 
