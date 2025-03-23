@@ -5,7 +5,7 @@ class Solution {
             int mid=(lo+hi)/2;  
             if(dp[mid]<val){   
                 res=mid;    
-                lo=mid+1;
+                lo=mid+1; 
             }else{    
                 hi=mid-1;
             }
