@@ -7,7 +7,7 @@ class Solution {
             if(arr[mid]==target){   
                 return mid; 
             }     
-            //left half is sorted 
+            //left half is sorted  
             if(arr[left]<=arr[mid]){ 
                 if(arr[left]<=target && target<arr[mid]){  
                     right=mid-1;
