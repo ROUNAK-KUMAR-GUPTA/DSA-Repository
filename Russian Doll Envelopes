@@ -9,7 +9,7 @@ class Solution {
             }else{      
                 hi=mid-1;
             }
-        }
+        } 
         return res+1;
     } 
     public int maxEnvelopes(int[][] envelopes) {
