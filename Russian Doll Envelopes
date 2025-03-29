@@ -7,7 +7,7 @@ class Solution {
                 res=mid;    
                 lo=mid+1; 
             }else{      
-                hi=mid-1; 
+                hi=mid-1;  
             } 
         } 
         return res+1; 
