@@ -5,7 +5,7 @@ class Solution {
                 int temp = 0;
                 temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;   
+                matrix[j][i] = temp;    
             }  
         } 
         for (int i = 0; i < matrix.length; i++) { 
